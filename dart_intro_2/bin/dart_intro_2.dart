@@ -1,5 +1,75 @@
-import 'package:dart_intro_2/dart_intro_2.dart' as dart_intro_2;
 
-void main(List<String> arguments) {
-  print('Hello world: ${dart_intro_2.calculate()}!');
-}
+
+
+
+void main() {
+// we will ues commment to explane the code in pc
+// to add hint 
+//syntax in dart
+//data type
+//variables
+//logical op
+//if else statmeny
+//switch
+//loop
+//class
+//functions
+//object
+//inheritance
+//string:any thing inside "      "
+//number 1.int 2.double
+//bool t or f
+//list
+//index:positions
+//map: object{ key:value}
+//methods:fun:tool that do some thing
+print("hello world");
+//variables
+int age =20;
+print(age);
+double x=20.6;
+String name="rama";
+String r='sami';
+bool e=true;
+//list
+List<int>num1=[1,2,3,4,5,6,7];//array
+List anyTing=[1,1.3,"rama"];//any value
+List<dynamic>num2=[1,2,3,4,5,6,7.6,'RAMA'];//same aye thing
+//map:containe many value/key:value
+Map person1={'name':'ahmad','age':20,'salary':1010};
+print (person1);
+dynamic F;
+F=10;
+F="RAMA";
+print(F);
+//dec of variable
+//1- final 
+//2 -const
+final y=5;//قيمه وحده الهم ما بصير التعديل 
+const p=8;// نفس الاشي 
+//null safety
+//null عرفت متغير بس ما اعطيته قيمه
+//undefind بتنادي ع اشي غير معرف
+int ?num3;//يقبل قيمه null
+print(num3);
+num3=9;
+print("After inserting value for num3");
+print("num3=$num3");
+
+
+
+
+
+
+
+
+
+
+
+
+ }
+  
+
+
+
+
