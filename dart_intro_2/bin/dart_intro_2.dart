@@ -23,25 +23,29 @@ void main() {
 //index:positions
 //map: object{ key:value}
 //methods:fun:tool that do some thing
-print("hello world");
+print('hi');
 //variables
 int age =20;
-print(age);
+//print(age);
 double x=20.6;
 String name="rama";
 String r='sami';
-bool e=true;
+bool e= true;
 //list
 List<int>num1=[1,2,3,4,5,6,7];//array
 List anyTing=[1,1.3,"rama"];//any value
 List<dynamic>num2=[1,2,3,4,5,6,7.6,'RAMA'];//same aye thing
 //map:containe many value/key:value
 Map person1={'name':'ahmad','age':20,'salary':1010};
-print (person1);
+//print (person1);
 dynamic F;
 F=10;
 F="RAMA";
-print(F);
+//print(F);
+List<dynamic>pip=[10.9,'lobna',990];
+print(pip);
+Map person2={ 'name':'rama','age':22,'salary':990};
+print (person2);
 //dec of variable
 //1- final 
 //2 -const
@@ -50,8 +54,10 @@ const p=8;// نفس الاشي
 //null safety
 //null عرفت متغير بس ما اعطيته قيمه
 //undefind بتنادي ع اشي غير معرف
+
 int ?num3;//يقبل قيمه null
-print(num3);
+print("Befor insert value of num3");
+print("num3=$num3");
 num3=9;
 print("After inserting value for num3");
 print("num3=$num3");
