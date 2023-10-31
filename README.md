@@ -4,7 +4,8 @@
 |   #|  titel |  link |   
 |---|---|---|
 |  1 | installation   |  [clik here](./classes/class1.md) |  
-|  3|   |  [clik here]() |  
+|  2|   |  [clik here]() |  
+|  3|   |  [clik here]() |
 |  4|   |  [clik here]() |
 |  5|   |  [clik here]() |
 |  6|   |  [clik here]() |
