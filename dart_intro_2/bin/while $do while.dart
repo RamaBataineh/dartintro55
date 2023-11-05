@@ -1,10 +1,6 @@
 void main(){
 
- while(true){
-  print('Hi');
-  break;
-
- }
+ 
  /*print('-'*50);
  int i=0;
 while (true){
