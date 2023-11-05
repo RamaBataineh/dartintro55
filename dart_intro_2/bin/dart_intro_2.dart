@@ -37,7 +37,7 @@ String r='sami';
 bool e= true;
 //list
 List<int>num1=[1,2,3,4,5,6,7];//array
-List anyTing =[1,1.3,"rama"];//any value
+List anyTing =[1,1.3,"rama"];//any value//anythig name of var
 List<dynamic>num2=[1,2,3,4,5,6,7.6,'RAMA'];//same aye thing
 print(num2[0]);
 List<dynamic>pip=[10.9,'lobna',990];
@@ -63,10 +63,11 @@ num3=9;
 print("After inserting value for num3");
 print("num3=$num3");
 //variable
-var w;
-//w=6.7;//var: must be same data type error,w=6 correct
+var w;//
+//w=6.7;//var: must be same data type ,w=6 erorr
 print(w??=5);//w=nul so w=5
 print(w??=52);
+
 
 
 

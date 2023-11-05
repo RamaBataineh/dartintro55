@@ -1,4 +1,3 @@
-import 'dart:io';
 
 void main(){
   ////check if number is prime or not
