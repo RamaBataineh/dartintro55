@@ -1,7 +1,4 @@
 
-
-
-
 void main() {
 // we will ues commment to explane the code in pc
 // to add hint 
@@ -23,10 +20,10 @@ void main() {
 //index:positions
 //map: object{ key:value}
 //methods:fun:tool that do some thing
-print('hi');
+//print('hi');
 //variables
 int age =20;
-print("age= $age");
+//print("age= $age");
 dynamic o;
 o=8;
 o='ghg';
@@ -39,11 +36,11 @@ bool e= true;
 List<int>num1=[1,2,3,4,5,6,7];//array
 List anyTing =[1,1.3,"rama"];//any value//anythig name of var
 List<dynamic>num2=[1,2,3,4,5,6,7.6,'RAMA'];//same aye thing
-print(num2[0]);
+//print(num2[0]);
 List<dynamic>pip=[10.9,'lobna',990];
-print(pip);
+//print(pip);
 List pp=[1,1.4,'rama'];
-print (pp);
+//print (pp);
 //map:containe many value/key:value
 Map person1={'name':'ahmad','age':20,'salary':1010};
 print ("person= $person1");
@@ -57,17 +54,16 @@ const p=8;// نفس الاشي
 //undefind بتنادي ع اشي غير معرف
 
 int ?num3;//يقبل قيمه null
-print("Befor insert value of num3");
-print("num3=$num3");
+//print("Befor insert value of num3");
+//print("num3=$num3");
 num3=9;
-print("After inserting value for num3");
-print("num3=$num3");
+//print("After inserting value for num3");
+//print("num3=$num3");
 //variable
 var w;//
 //w=6.7;//var: must be same data type ,w=6 erorr
-print(w??=5);//w=nul so w=5
-print(w??=52);
-
+//print(w??=5);//w=nul so w=5
+//print(w??=52);
 
 
 
