@@ -19,8 +19,9 @@ int x=0;
 bool istrue=true;
 while (istrue){
   if (x==5){
+x++;
     continue;//0 1 2 3 4 infint loop
-  x++; 
+ 
   }
   if(x==10){
    istrue=false;
