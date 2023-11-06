@@ -1,19 +1,21 @@
 void main(){
 
  
- /*print('-'*50);
+ print('-'*50);
  int i=0;
 while (true){
   if (i==5){
+      i++; 
     continue;//0 1 2 3 4 infint loop
-    i++; 
+   
   }
   if(i==10){
     break;
   }
   print(i);
+  i++;
   //i++; stop 4
-}*/
+}
 print('-'*50);
 int x=0;
 bool istrue=true;
