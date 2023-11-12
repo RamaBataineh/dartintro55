@@ -9,7 +9,7 @@
 |  4|  operations |  [clik here](./classes//class4.md) |
 |  5|  if&for loop |  [clik here](./classes//class5.md) |
 |  6|  while &insert |  [clik here](./classes//class6.md) |
-|  7|   |  [clik here]() |
+|  7|  methods |  [clik here](./classes/class7.md) |
 |  8|   |  [clik here]() |
 |  9|   |  [clik here]() |
 |  10|   |  [clik here]() |
