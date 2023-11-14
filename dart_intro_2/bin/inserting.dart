@@ -20,7 +20,22 @@ while(true){
   
 switch(ch){
   case '1':
-  print ("welcome to login bage");
+print ("Plz insert name");
+   var name= stdin.readLineSync();
+   
+print ("Plz insert pass");
+var pass= stdin.readLineSync();
+for(var i=0;i<myList.length;i++){
+  if(name==myList[i]['name']&&pass==myList[i]['pass']){
+   print ("welcome to login bage");
+    break;//تكسر for
+
+  }
+  else{
+    print('wrong');
+  }
+}
+  
   break;
   case '2':
   print ("welcome to  reg bage");
@@ -33,7 +48,7 @@ var pass= stdin.readLineSync();
 print ("Plz insert email");
 var email= stdin.readLineSync();
 Map <String, dynamic> p1={'name':name,'pass':pass,'email':email};
- 
+
  myList.addAll([p1]);
  print(myList); 
 
