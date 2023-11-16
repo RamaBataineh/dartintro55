@@ -1,56 +1,54 @@
 import'dart:io';
-void main(){
- Map preson1={
-    'name':'rami',
-    'age':20,
-    'salary':104
-  };
-Map preson2={
-    'name':'sara',
-    'age':25,
-    'salary':900
-  };
-Map preson3={
-    'name':'rama',
-    'age':23,
-    'salary':100//nullمابصير اتركها فاضيه 
-  };
+void main(){/*
+ Map person1={
+'name':'rama',
+'age':20,
+'salary':190
+ };
+ Map person2={
+'name':'renad',
+'age':22,
+' salary':70
 
-  Map<int,Map>  allpreson={
-    1:preson1,
-    2:preson2,
-    3:preson3
-  };
- // print(allpreson.keys);
-  //print(allpreson);
-  //allpreson[3]?['salary']=2000;
-  
-  //preson3.update('salary', (value) => 30);
-//print(allpreson);
-allpreson.remove(1);
-//print(allpreson);
+ };
+ Map person3={
+'name':'morad',
+'age':30,
+' salary':200
+
+ };
+ Map <int,Map> allperson= {
+1:person1,
+2:person2,
+3:person3
+ };
+print(allperson);
+allperson[3]?['name']='mohammad';
+print(allperson);
+person2.update('age', (value) => 50);
+print(allperson);
+allperson.remove(2);
+print(allperson);*/
 print('*'*50);
 print ("Plz insert name");
-   String? name= stdin.readLineSync();
-List beforEdit=[];
-String AfterEdit( name){
-  for(var i=0;i<name.length;i++){
-if(name[i]=='h'||name[i]=='u'){
-  beforEdit.add('*');
-}
-else{
-  beforEdit.add(name[i]);
-}
+   String ?name=stdin.readLineSync();
+   List beforeedit =[];
+   String afteredit(name){
+for(var i=0;i<name.length;i++){
+  if(name[i]=='h'||name[i]=='u'){
+    beforeedit.add('*');
   }
+  else{
+    beforeedit.add(name[i]);
+  }}
   String collect='';
-  for(var i=0;i<beforEdit.length;i++){
-    collect+=beforEdit[i];
+  for(var i=0;i<beforeedit.length;i++){
+    collect+=beforeedit[i];
   }
   return collect;
 
-}
 
-print(AfterEdit(name));
+   }
+   print(afteredit(name));
 
 }
-//fun guss gam
