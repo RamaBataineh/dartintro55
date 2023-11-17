@@ -1,3 +1,4 @@
+import 'dart:io';
 
 void main() {
 // we will ues commment to explane the code in pc
@@ -22,7 +23,7 @@ void main() {
 //methods:fun:tool that do some thing
 //print('hi');
 //variables
-int age =20;
+/*int age =20;
 //print("age= $age");
 dynamic o;
 o=8;
@@ -65,9 +66,8 @@ var w;//
 //print(w??=5);//w=nul so w=5
 //print(w??=52);
 
-
-
-
+*/
+ 
 
 
 

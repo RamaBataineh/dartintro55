@@ -41,16 +41,8 @@ break;
     list.insert(s, word2[s]);
     i++;s++;
     print(list);
-   /* List l=[];
-    for(var i=0;i<word.length;i++){
-    l.add(word[i]);
     
-
-    }
-    if(l==list){
-     break;
-    
- }*/
+   
  }
  
  
