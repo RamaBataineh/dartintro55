@@ -37,6 +37,10 @@ break;
     list.insert(s, word2[s]);
     i++;s++;
     print(list);
+    
+ }
+ else if(word==word2){
+break;
  }
  else{
 i++;s++;
