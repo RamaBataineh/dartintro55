@@ -4,7 +4,7 @@ void main()
     int Temp=0;
   String ?word2;
   List list=[];
-  print('playar 1 plz insert the word');
+  print('player 1 plz insert the word');
 String ?word=stdin.readLineSync();
 
 
@@ -15,10 +15,15 @@ list.add('_');
 }
 
 print(list);
-
-while(Temp<6){
-  print('playar 2 plz insert the  guss word');
+List oldword=[];
+ oldword.add(word);
+/////////////
+while(Temp<6)
+{
+ 
+  print('player 2 plz insert the  guss word');
 word2=stdin.readLineSync();
+ 
 if(word==word2){
 list.removeRange(0, list.length);
 list.add(word2);
@@ -27,7 +32,7 @@ break;
  else{
 
   var i=0;var s=0;
- 
+ /////////////
   while(true){
  if(i>=word.length){
   break;
@@ -39,16 +44,17 @@ break;
     print(list);
     
  }
- else if(word==word2){
-break;
- }
+ 
+ 
+ 
  else{
 i++;s++;
 Temp++;
   
 
  }
- }}
+ }///////////
+ }
  }
 return list;
 
@@ -56,18 +62,5 @@ return list;
 
 print(finalworld(word,word2));
 
-
-
-
-   
-
-
-
-
-
-
-
-
- 
 
 }
