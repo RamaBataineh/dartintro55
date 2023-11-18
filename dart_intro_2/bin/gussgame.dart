@@ -1,4 +1,8 @@
-import 'dart:io';
+
+
+//way 2:
+
+/*import 'dart:io';
 void main()
 {
     int Temp=0;
@@ -63,4 +67,4 @@ return list;
 print(finalworld(word,word2));
 
 
-}
+}*/

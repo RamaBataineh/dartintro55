@@ -40,7 +40,7 @@ person1.clear();
 print(allperson);
 allperson.remove(2);
 print(allperson);*/
-List beforedit=[];
+/*List beforedit=[];
 print("plz enter your name");
 String ?word=stdin.readLineSync();
 String afteredit(word){
@@ -60,11 +60,7 @@ return collect;
 
 }
 print(afteredit(word));
-
-
-
-
-
-
+*/
 
 }
+
