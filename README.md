@@ -10,9 +10,9 @@
 |  5|  if&for loop |  [clik here](./classes//class5.md) |
 |  6|  while &insert |  [clik here](./classes//class6.md) |
 |  7|  methods |  [clik here](./classes/class7.md) |
-|  8|   |  [clik here]() |
-|  9|   |  [clik here]() |
-|  10|   |  [clik here]() |
+|  8|  list method |  [clik here](./classes/class8.md) |
+|  9| map method  |  [clik here](./classes/class9.md) |
+|  10| mid project  |  [clik here](./classes/class10.md) |
 |  11|   |  [clik here]() |
 |  12|   |  [clik here]() |
 |  13|   |  [clik here]() |
