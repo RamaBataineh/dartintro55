@@ -1,5 +1,3 @@
-
-
 //way 2:
 
 /*import 'dart:io';
