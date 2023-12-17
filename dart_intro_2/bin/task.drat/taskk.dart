@@ -1,15 +1,15 @@
 class User{
-String ?email;
+String ?_email;
 String ?pass;
 String ?username;
 //constructor
-User (this.pass,this.username,this.email);
-/*set email(String email){
-this.email=email;
+User (this.pass,this.username,this._email);
+set email(String email){
+this._email=email;
 }
  String get email{
 return this.email;
-}*/
+}
 void sendemail(String recipient,String message){
   print('message=$message');
 }
@@ -26,10 +26,10 @@ void performAdminAction (){
 }
 void main(){
 
-User u1=User('1234','Rama','2020980044@ses');
+User u1=User('1234','Rama','6');
 AdminUser u2=AdminUser('1245','renad', 'r2045@yahoo.com', 'S');
 print(u1.email);
-
+u1.sendemail('ahmad', 'plz contact me');
 
 
 }
